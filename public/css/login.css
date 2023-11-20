@@ -1,0 +1,68 @@
+/* Estilos gerais */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remova a margem grande que você tinha */
+    padding: 0;
+    text-align: center;
+    /* Define a imagem de fundo */
+    background-image: url('/public/image/cafe.jpg'); 
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+
+
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(249, 249, 249, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    width: 90%; /* Reduza a largura máxima para 90% para que seja mais responsivo */
+    margin-top: 10%; /* Adicione margem superior para espaço na parte superior */
+}
+
+h2 {
+    margin-top: 0;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #cc5500;
+}

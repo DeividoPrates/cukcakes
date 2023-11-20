@@ -1,0 +1,112 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('/public/image/cafe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    background-color: #ffcc99;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+nav {
+    margin: 20px;
+    margin-right: 10px;
+    
+    
+}
+
+nav ul li {
+    font-size: 25px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    margin-right: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: #ffcc99;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos */
+/* Adicione estilos de acordo com o conteúdo da página */
+
+.order-details {
+    text-align: left;
+}
+
+.order-summary {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(249, 249, 249, 0.8);
+}
+
+.order-summary h2 {
+    font-size: 24px;
+}
+
+.order-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(249, 249, 249, 0.8);
+}
+
+.order-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.order-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    background-color: #ffcc99;
+    padding: 10px 0;
+    position: fixed; /* Adicione esta linha */
+    bottom: 0; /* Coloca o rodapé na parte inferior da janela */
+    width: 100%; /* Define a largura para ocupar toda a largura da janela */
+}

@@ -1,0 +1,25 @@
+
+
+{
+  "development": {
+    "username": "root",
+    "password": "DaviBia0808",
+    "database": "cukcakes",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "DaviBia0808",
+    "database": "cukcakes",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "DaviBia0808",
+    "database": "cukcakes",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

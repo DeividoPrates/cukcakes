@@ -1,0 +1,146 @@
+/* Reset CSS para zerar margens e preenchimentos padrão */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('/public/image/cafe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    background-color: #ffcc99;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+nav {
+    margin: 20px;
+    margin-right: 10px;
+    
+    
+}
+
+nav ul li {
+    font-size: 25px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    margin-right: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: #ffcc99;
+}
+
+/* Estilos para o nome do usuário */
+#name {
+    font-size: 20px;
+    display: inline;
+    margin-right: 20px;
+    color: #000;
+}
+
+/* Estilos para a opção de sair */
+#logout a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    display: inline;
+}
+
+#logout a:hover {
+    color: #ffcc99;
+}
+
+main {
+    max-width: 1200px;
+    margin: 65px auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos */
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.welcome img {
+    max-width: 50%;
+    height: auto;
+}
+
+.welcome.text {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome h2 {
+    font-size: 25px;
+}
+
+.welcome p {
+    font-size: 25px;
+}
+
+.welcome h2,
+.welcome p,
+.welcome .cta-button {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    background-color: #ffcc99;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff9966;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    background-color: #ffcc99;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

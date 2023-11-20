@@ -1,0 +1,14 @@
+// Rota para registrar um novo usuário
+app.post('/api/register', (req, res) => {
+    const { name, email, password } = req.body;
+
+    
+
+    // Implemente suas validações aqui (por exemplo, verificar se o usuário já existe no banco de dados)
+    if (name && email && password) {
+        // Simule o registro bem-sucedido
+        res.status(201).json({ message: 'Usuário registrado com sucesso!' });
+    } else {
+        res.status(400).json({ error: 'Campos inválidos ou faltando' });
+    }
+});

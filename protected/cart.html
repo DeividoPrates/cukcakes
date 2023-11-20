@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Virtual - Carrinho de Compras</title>
+    <link rel="stylesheet" href="/public/css/cart.css">
+</head>
+<body>
+    <header>
+        <h1>CUPCAKES - Cafeteria Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="/views/estrutura.html">Início</a></li>
+                <li><a href="/views/produtos.html">Produtos</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cart">
+            <!-- Itens do carrinho serão exibidos aqui -->
+        </div>
+        <section class="cart-total">
+            <h2>Total do Carrinho</h2>
+            <p>Total: <span id="cart-total-price">R$0.00</span></p>
+            <button id="checkout-button">Finalizar Compra</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Cafeteria Virtual. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/public/js/cart.js"></script>
+</body>
+</html>

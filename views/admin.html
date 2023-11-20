@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração</title>
+    <link rel="stylesheet" href="/public/css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Painel de Administração</h1>
+        <div class="product-form">
+            <h2>Adicionar Novo Produto</h2>
+            <form id="product-form">
+                <label for="product-name">Nome do Produto:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="product-price">Preço:</label>
+                <input type="text" id="price" name="price" required>
+
+                <label for="product-description">Descrição:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <label for="product-image">Imagem do Produto:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+
+                <button type="submit">Adicionar Produto</button>
+            </form>
+        </div>
+        <div class="product-list">
+            <h2>Lista de Produtos</h2>
+            <ul id="product-list">
+                <!-- A lista de produtos será carregada aqui dinamicamente -->
+            </ul>
+        </div>
+    </div>
+    <script src="/public/js/admin.js"></script>
+</body>
+</html>

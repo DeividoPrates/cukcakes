@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento com Cartão de Crédito</title>
+    <link rel="stylesheet" href="/public/css/pagamento_cartao.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h2>Pagamento com Cartão de Crédito</h2>
+        <form id="payment-form">
+            <label for="card-number">Número do Cartão:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="Digite o número do cartão" required>
+
+            <label for="card-name">Nome no Cartão:</label>
+            <input type="text" id="card-name" name="card-name" placeholder="Nome impresso no cartão" required>
+
+            <label for="card-expiry">Data de Expiração (MM/AA):</label>
+            <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/AA" required>
+
+            <label for="card-cvv">CVV (Código de Segurança):</label>
+            <input type="text" id="card-cvv" name="card-cvv" placeholder="Digite o CVV" required>
+
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+    <script src="/public/js/pagamente_cartao.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!-- estrutura.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUPCAKES - Cafeteria Virtual</title>
+    <link rel="stylesheet" href="/public/css/estrutura.css">
+</head>
+<body>
+    <header>
+        <h1>CUPCAKES - Cafeteria Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="/protected/cart.html">Carrinho</a></li>
+                <!-- Adicione o link de logout se o usuário estiver logado -->
+                <li id="logout"><a href="#" id="logout">Sair</a></li>
+                <!-- Adicione o nome do usuário -->
+                <li id="email"></li>
+                <!-- Adicione o link de login se o usuário não estiver logado -->
+                <li id="login" ><a href="/views/login.html" id="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            <img src="/public/image/logo.jpg" alt="Cafeteria Virtual" id="logo-image">
+            <div class="text">
+                <h2 id="cafe-name">Bem-vindo à CUPCAKES - Cafeteria Virtual</h2>
+                <p id="cafe-description">Descubra uma variedade de produtos deliciosos em nossa cafeteria virtual. De café quente a doces saborosos, temos tudo para satisfazer seu paladar.</p>
+                <a href="produtos.html" class="cta-button">Ver Produtos</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CUPCAKES Cafeteria Virtual. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/public/js/estrutura.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Virtual Pedidos - Checkout</title>
+    <link rel="stylesheet" href="/public/css/checkout.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <h1>Checkout</h1>
+        <div id="cart-summary">
+            <h2>Resumo do Carrinho</h2>
+            <ul id="cart-item-list">
+                <!-- Itens do carrinho aparecerão aqui -->
+            </ul>
+            <p>Total a Pagar: R$ <span id="total-amount">0.00</span></p>
+        </div>
+        <form id="checkout-form">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Digite o CEP" required>
+            <button type="button" id="search-address">Buscar Endereço</button>
+            <p id="address-result"></p>
+
+            <label for "rua">Rua:</label>
+            <input type="text" id="rua" name="rua" readonly>
+            <label for "bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" readonly>
+            <label for "cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" readonly>
+            <label for "estado">Estado:</label>
+            <input type="text" id="estado" name="estado" readonly>
+            <label for "numero">Número:</label>
+            <input type="text" id="numero" name="numero" placeholder="Digite o número da residência" required>
+
+            <label for="payment-method">Método de Pagamento:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Cartão de Crédito</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="credit">Cartão de Débito/Crédito na Entrega</option>
+            </select>
+
+            <button type="submit">Finalizar Compra</button>
+        </form>
+        <a href="cart.html">Voltar ao Carrinho</a>
+    </div>
+    <script src="/public/js/checkout.js"></script>
+</body>
+</html>

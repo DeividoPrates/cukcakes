@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remova a margem grande que você tinha */
+    padding: 0;
+    text-align: center;
+    /* Define a imagem de fundo */
+    background-image: url('/public/image/cafe.jpg'); 
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(249, 249, 249, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    width: 90%; /* Reduza a largura máxima para 90% para que seja mais responsivo */
+    margin-top: 5%; /* Adicione margem superior para espaço na parte superior */
+
+}
+
+.admin-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.product-form input[type="text"],
+.product-form textarea,
+.product-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.product-form button[type="submit"] {
+    background-image: linear-gradient(-90deg, #a15306, #574c47);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.product-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-list img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.product-list button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-list button.edit-button {
+    background-color: #ffc107;
+    margin-right: 10px;
+}
