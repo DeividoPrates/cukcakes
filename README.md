@@ -1,5 +1,5 @@
 #  Código - Sistema de gestão de pedidos e controle de mercadorias a serem vendidas.
-Este projeto é uma ** Código ** desenvolvida em ** JavaScript** , ** HTM** L, ** CSS**  com ** Visual Studio Code** , ** Node.js**  e**  MYSQL**  com envios de ** JSON** , que gerencia os pedidos de clientes para lojas.
+##Este projeto é uma ** Código ** desenvolvida em ** JavaScript** , ** HTM** L, ** CSS**  com ** Visual Studio Code** , ** Node.js**  e**  MYSQL**  com envios de ** JSON** , que gerencia os pedidos de clientes para lojas.
 ##Tecnologias Utilizadas
 -JavaScript 
 -Visual Studio Code 
